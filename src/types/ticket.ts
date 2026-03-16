@@ -7,8 +7,8 @@ export interface Ticket {
     status: TicketStatus;
     description: string;
     priority: TicketPriority;
-    createdAt: Date;
-    updatedAt: Date;
+    createdAt?: Date;
+    updatedAt?: Date;
 
     assignedTo?: string;
 
